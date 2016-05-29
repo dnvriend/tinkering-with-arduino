@@ -5,14 +5,14 @@
 ---
 
 ## Description
-The [Makeblock ME UNO Shield module](http://learn.makeblock.com/en/me-uno-shield/) is a shield of Arduino UNO. It can turn Arduino pins into Makeblock RJ25 ports. You can connect Arduino UNO with Makeblock electronic modules. This shield provides a stable power, so it can drive many servos and motors.
+The [Makeblock ME UNO Shield module][makeblock shield] is a shield of Arduino UNO. It can turn Arduino pins into Makeblock RJ25 ports. You can connect Arduino UNO with Makeblock electronic modules. This shield provides a stable power, so it can drive many servos and motors.
 
 ---
 
 ## Features
 * 2.54mm pin holes for connecting with Dupont wire
 * Easy wiring with 6P6C RJ25 interface
-* [Arduino library](https://github.com/Makeblock-official/Makeblock-Libraries) for easy programming
+* [Arduino library][library] for easy programming
 
 ---
 
@@ -24,3 +24,6 @@ The [Makeblock ME UNO Shield module](http://learn.makeblock.com/en/me-uno-shield
 ![ME-UNO-SHIELD-SCHEMATIC](schematic.png)
 
 ---
+
+[library]: https://github.com/Makeblock-official/Makeblock-Libraries
+[makeblock shield]: http://learn.makeblock.com/en/me-uno-shield/
