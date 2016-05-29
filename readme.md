@@ -1,5 +1,5 @@
 ## Digital Input and output
-The Arduino has 14 digital pins, and can be used as an input or as an output. Each digital pin operates at 5 volts and can provide or receive a current of maximum 40 milli amps (mA). Each digital pin has an internal pull-up resistor, which is disconnected by default, of 20-50 kOhms. In addition, some pins have specialized functions:
+The [Arduino][circuits] has 14 digital pins, and can be used as an input or as an output. Each digital pin operates at 5 volts and can provide or receive a current of maximum 40 milli amps (mA). Each digital pin has an internal pull-up resistor, which is disconnected by default, of 20-50 kOhms. In addition, some pins have specialized functions:
 
 * PWM 3,5,6,9,10,11:  Provide 8-bit [Pulse Width Modulation (PWM)](https://en.wikipedia.org/wiki/Pulse-width_modulation) output with the analogWrite() function.
 * LED (13): There is a built-in LED connected to pin 13. When the pin is HIGH value, the LED is on, when the pin is LOW value, it's off.
@@ -23,3 +23,5 @@ Feather is the new development board of Adafruit. The development boards are lig
 
 * [I2C](https://en.wikipedia.org/wiki/I%C2%B2C): Inter-Integrated Circuit, pronounced I-squared-C is used for attaching lower-speed peripherals to processors and microcontrollers in short-distance, intra-board communication. It is invented by Philips. 
 * [TWI](https://en.wikipedia.org/wiki/I%C2%B2C#Derivative_technologies): Two Wire Interface is the same as I2C implemented on various system-on-chip processors from Atmel (eg. Arduino).
+
+[circuits]: https://123d.circuits.io/
